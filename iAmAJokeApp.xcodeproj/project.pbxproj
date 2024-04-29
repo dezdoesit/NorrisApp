@@ -14,6 +14,18 @@
 		4CC606BA2BDD347900B61AE0 /* iAmAJokeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC606B92BDD347900B61AE0 /* iAmAJokeAppTests.swift */; };
 		4CC606C42BDD347900B61AE0 /* iAmAJokeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC606C32BDD347900B61AE0 /* iAmAJokeAppUITests.swift */; };
 		4CC606C62BDD347900B61AE0 /* iAmAJokeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC606C52BDD347900B61AE0 /* iAmAJokeAppUITestsLaunchTests.swift */; };
+		4CC606D92BDD3EB600B61AE0 /* JokeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC606D82BDD3EB600B61AE0 /* JokeModel.swift */; };
+		4CC606DB2BDD3F1200B61AE0 /* CNAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC606DA2BDD3F1200B61AE0 /* CNAPIManager.swift */; };
+		4CC606DD2BDD444600B61AE0 /* JokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC606DC2BDD444600B61AE0 /* JokeViewModel.swift */; };
+		4CC606DF2BDD5E6000B61AE0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC606DE2BDD5E6000B61AE0 /* OnboardingView.swift */; };
+		4CC606E12BDD8B0300B61AE0 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC606E02BDD8B0300B61AE0 /* LaunchScreenView.swift */; };
+		4CC606E42BDD907700B61AE0 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC606E32BDD907700B61AE0 /* MainTabView.swift */; };
+		4CC606E82BDDC9CA00B61AE0 /* FunnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC606E72BDDC9CA00B61AE0 /* FunnyView.swift */; };
+		4CC606EA2BDDCE1F00B61AE0 /* JokeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC606E92BDDCE1F00B61AE0 /* JokeDetailView.swift */; };
+		4CC606EC2BDDCF2200B61AE0 /* JokeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC606EB2BDDCF2200B61AE0 /* JokeRowView.swift */; };
+		4CC606EE2BDF3C1F00B61AE0 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CC606ED2BDF3C1F00B61AE0 /* Config.plist */; };
+		4CC606F92BDFCB1B00B61AE0 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC606F82BDFCB1B00B61AE0 /* MockURLProtocol.swift */; };
+		4CE6C0632BDFF033006B075F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE6C0622BDFF033006B075F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,19 @@
 		4CC606BF2BDD347900B61AE0 /* iAmAJokeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iAmAJokeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC606C32BDD347900B61AE0 /* iAmAJokeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iAmAJokeAppUITests.swift; sourceTree = "<group>"; };
 		4CC606C52BDD347900B61AE0 /* iAmAJokeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iAmAJokeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CC606D82BDD3EB600B61AE0 /* JokeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeModel.swift; sourceTree = "<group>"; };
+		4CC606DA2BDD3F1200B61AE0 /* CNAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNAPIManager.swift; sourceTree = "<group>"; };
+		4CC606DC2BDD444600B61AE0 /* JokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewModel.swift; sourceTree = "<group>"; };
+		4CC606DE2BDD5E6000B61AE0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		4CC606E02BDD8B0300B61AE0 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		4CC606E22BDD8EC200B61AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4CC606E32BDD907700B61AE0 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		4CC606E72BDDC9CA00B61AE0 /* FunnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyView.swift; sourceTree = "<group>"; };
+		4CC606E92BDDCE1F00B61AE0 /* JokeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDetailView.swift; sourceTree = "<group>"; };
+		4CC606EB2BDDCF2200B61AE0 /* JokeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeRowView.swift; sourceTree = "<group>"; };
+		4CC606ED2BDF3C1F00B61AE0 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		4CC606F82BDFCB1B00B61AE0 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		4CE6C0622BDFF033006B075F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +119,11 @@
 		4CC606A72BDD347700B61AE0 /* iAmAJokeApp */ = {
 			isa = PBXGroup;
 			children = (
-				4CC606A82BDD347700B61AE0 /* iAmAJokeAppApp.swift */,
-				4CC606AA2BDD347700B61AE0 /* ContentView.swift */,
+				4CC606ED2BDF3C1F00B61AE0 /* Config.plist */,
+				4CC606E22BDD8EC200B61AE0 /* Info.plist */,
+				4CC606D52BDD3E3100B61AE0 /* Views */,
+				4CC606D42BDD3E2800B61AE0 /* Models */,
+				4CC606D32BDD3E1F00B61AE0 /* Service */,
 				4CC606AC2BDD347900B61AE0 /* Assets.xcassets */,
 				4CC606AE2BDD347900B61AE0 /* Preview Content */,
 			);
@@ -114,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				4CC606B92BDD347900B61AE0 /* iAmAJokeAppTests.swift */,
+				4CC606F82BDFCB1B00B61AE0 /* MockURLProtocol.swift */,
 			);
 			path = iAmAJokeAppTests;
 			sourceTree = "<group>";
@@ -127,6 +156,39 @@
 			path = iAmAJokeAppUITests;
 			sourceTree = "<group>";
 		};
+		4CC606D32BDD3E1F00B61AE0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4CC606A82BDD347700B61AE0 /* iAmAJokeAppApp.swift */,
+				4CC606DA2BDD3F1200B61AE0 /* CNAPIManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4CC606D42BDD3E2800B61AE0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4CC606DC2BDD444600B61AE0 /* JokeViewModel.swift */,
+				4CC606D82BDD3EB600B61AE0 /* JokeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4CC606D52BDD3E3100B61AE0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CC606AA2BDD347700B61AE0 /* ContentView.swift */,
+				4CC606DE2BDD5E6000B61AE0 /* OnboardingView.swift */,
+				4CC606E02BDD8B0300B61AE0 /* LaunchScreenView.swift */,
+				4CC606E32BDD907700B61AE0 /* MainTabView.swift */,
+				4CC606E72BDDC9CA00B61AE0 /* FunnyView.swift */,
+				4CC606E92BDDCE1F00B61AE0 /* JokeDetailView.swift */,
+				4CC606EB2BDDCF2200B61AE0 /* JokeRowView.swift */,
+				4CE6C0622BDFF033006B075F /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +196,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CC606C92BDD347900B61AE0 /* Build configuration list for PBXNativeTarget "iAmAJokeApp" */;
 			buildPhases = (
+				4CC606F12BDF471600B61AE0 /* API Sample */,
+				4CC606D72BDD3E8000B61AE0 /* SwiftLint Config Script */,
 				4CC606A12BDD347700B61AE0 /* Sources */,
 				4CC606A22BDD347700B61AE0 /* Frameworks */,
 				4CC606A32BDD347700B61AE0 /* Resources */,
@@ -231,6 +295,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC606EE2BDF3C1F00B61AE0 /* Config.plist in Resources */,
+				4CE6C0632BDFF033006B075F /* LaunchScreen.storyboard in Resources */,
 				4CC606B02BDD347900B61AE0 /* Preview Assets.xcassets in Resources */,
 				4CC606AD2BDD347900B61AE0 /* Assets.xcassets in Resources */,
 			);
@@ -252,13 +318,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CC606D72BDD3E8000B61AE0 /* SwiftLint Config Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftLint Config Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n PATH=/opt/homebrew/bin:$PATH\nif [ -f ~/com.raywenderlich.swiftlint.yml ]; then\n  if which swiftlint >/dev/null; then\n    swiftlint --no-cache --config ~/com.raywenderlich.swiftlint.yml\n  fi\nfi\n";
+		};
+		4CC606F12BDF471600B61AE0 /* API Sample */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "API Sample";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nCONFIG_FILE_BASE_NAME=\"Config\"\n \nCONFIG_FILE_NAME=${CONFIG_FILE_BASE_NAME}.plist\nSAMPLE_CONFIG_FILE_NAME=${CONFIG_FILE_BASE_NAME}-Sample.plist\n \nCONFIG_FILE_PATH=$SRCROOT/$PRODUCT_NAME/$CONFIG_FILE_NAME\nSAMPLE_CONFIG_FILE_PATH=$SRCROOT/$PRODUCT_NAME/$SAMPLE_CONFIG_FILE_NAME\n \nif [ -f \"$CONFIG_FILE_PATH\" ]; then\n  echo \"$CONFIG_FILE_PATH exists.\"\nelse\n  echo \"$CONFIG_FILE_PATH does not exist, copying sample\"\n  cp -v \"${SAMPLE_CONFIG_FILE_PATH}\" \"${CONFIG_FILE_PATH}\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CC606A12BDD347700B61AE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC606DD2BDD444600B61AE0 /* JokeViewModel.swift in Sources */,
 				4CC606AB2BDD347700B61AE0 /* ContentView.swift in Sources */,
+				4CC606E12BDD8B0300B61AE0 /* LaunchScreenView.swift in Sources */,
+				4CC606E42BDD907700B61AE0 /* MainTabView.swift in Sources */,
+				4CC606EA2BDDCE1F00B61AE0 /* JokeDetailView.swift in Sources */,
 				4CC606A92BDD347700B61AE0 /* iAmAJokeAppApp.swift in Sources */,
+				4CC606DF2BDD5E6000B61AE0 /* OnboardingView.swift in Sources */,
+				4CC606E82BDDC9CA00B61AE0 /* FunnyView.swift in Sources */,
+				4CC606EC2BDDCF2200B61AE0 /* JokeRowView.swift in Sources */,
+				4CC606D92BDD3EB600B61AE0 /* JokeModel.swift in Sources */,
+				4CC606DB2BDD3F1200B61AE0 /* CNAPIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CC606BA2BDD347900B61AE0 /* iAmAJokeAppTests.swift in Sources */,
+				4CC606F92BDFCB1B00B61AE0 /* MockURLProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,9 +542,10 @@
 				DEVELOPMENT_TEAM = ZB5WA6672J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iAmAJokeApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CKJokes;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,9 +572,10 @@
 				DEVELOPMENT_TEAM = ZB5WA6672J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iAmAJokeApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CKJokes;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -1,0 +1,19 @@
+//
+//  JokeAPIProtcol.swift
+//  iAmAJokeAppTests
+//
+//  Created by dmoney on 4/28/24.
+//
+import Foundation
+
+class MockAPIManager: CNAPIManager {
+    var shouldReturnError = false
+
+    override func fetchRandomJokes() async throws -> Joke {
+        if shouldReturnError {
+            throw URLError(.notConnectedToInternet)
+        } else {
+            return Joke(id: "1", value: "Mock Joke")
+        }
+    }
+}
