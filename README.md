@@ -5,9 +5,9 @@ compare times, and earn badges for increasing your speed and time on the trails!
 
 
 ## Video Demo
+![EC-NorrisJokes-capstone-Blair-ezgif com-optimize](https://github.com/dezdoesit/NorrisApp/assets/117093220/0e9389d6-c4cd-49e1-9afa-6bb7d5e7ec2d)
 
-![App Screenshot](![image](https://github.com/dezdoesit/NorrisApp/assets/117093220/a37e7f8b-59ac-41e2-a39f-fea574400aa3)
-)
+
 
 
 ## Table of contents
