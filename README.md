@@ -4,9 +4,10 @@ MTB Trials is an app for mountain bikers who use Strava and want to gamify compe
 compare times, and earn badges for increasing your speed and time on the trails! 
 
 
-## Screenshots
+## Video Demo
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](![image](https://github.com/dezdoesit/NorrisApp/assets/117093220/a37e7f8b-59ac-41e2-a39f-fea574400aa3)
+)
 
 
 ## Table of contents
