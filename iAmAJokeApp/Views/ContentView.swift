@@ -28,7 +28,6 @@ struct ContentView: View {
                         .scaledToFit()
                         .frame(width: 100, height: 100)
                         .rotationEffect(.degrees(isLoading ? 0 : 180))
-
                 }
             }
                 .onAppear {
